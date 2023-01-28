@@ -104,7 +104,7 @@ public class TshirtServiceImpl implements TshirtService {
 
 	@Override
 	public void deleteTshirt(long tshirtId) {
-		Tshirts tshirt = tshirtsDao.getOne(tshirtsId);
+		Tshirts tshirt = tshirtsDao.getOne(tshirtId);
 		tshirtsDao.delete(tshirt);
 	}
  
